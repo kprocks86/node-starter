@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "it is a basic stater code for node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kprocks86/node-starter.git"
+  },
+  "author": "krunal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kprocks86/node-starter/issues"
+  },
+  "homepage": "https://github.com/kprocks86/node-starter#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

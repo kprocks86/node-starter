@@ -1,6 +1,11 @@
  const express = require('express');
- var app = express();
- var port = 3000;
- app.listen(port, () => {
-   console.log('server started on :' + port);
+ const app = express();
+ const config = require('./config/config.js');
+
+
+
+
+
+ app.listen(config.dev.port, () => {
+   console.log('server started on :' + config.dev.port);
  });
