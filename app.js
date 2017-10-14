@@ -1,9 +1,7 @@
  const express = require('express');
  const app = express();
  const config = require('./config/config.js');
-
-
-
+ app.use('view engine','ejs')
 
 
  app.listen(config.dev.port, () => {
